@@ -33,13 +33,13 @@
         <input type="text" id="name" autocomplete="name" name="name" required>
         <label for="email">Email:<span class="required" >*</span></label>
         <input type="email" id="email" autocomplete="email" name="email" required>
-		<label for="phone">Phone Number:</label>
-		<input type="tel" id="phone" autocomplete="tel" name="phone">
+		<label for="phone">Phone Number:<span class="required" >*</span></label>
+		<input type="tel" id="phone" autocomplete="tel" name="phone" required>
 		<fieldset>
 			<legend for="preferred_contact">Preferred Contact Method:<span class="required" >*</span></legend>
-			<input id="contact_email" name="preferred_contact" value="email" type="radio">
+			<input id="contact_email" name="preferred_contact" value="email" type="radio" required>
 	<label for="contact_email">Email</label>
-			<input id="contact_phone" name="preferred_contact" value="phone" type="radio">
+			<input id="contact_phone" name="preferred_contact" value="phone" type="radio" required>
 	<label for="contact_phone">Phone</label>
 		</fieldset>
 		<label for="state">State of Residence:</label>
